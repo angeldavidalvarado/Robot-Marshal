@@ -1,0 +1,202 @@
+img {
+    width: 1431px;
+    height: 749px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#contenedor {
+    width: 620px;
+    height: 650px;
+    border: 5px solid hsla(0, 60%, 41%, 0);
+    position: absolute;
+    z-index: 2;
+    margin: 0px 10px 10px 700px;
+}
+
+
+#cabeza {
+    width:200px;
+    height:150px;
+    background: hsl(187, 100%, 42%);
+    margin: 0px 10px 10px 216px;
+    border-radius: 5px;
+}
+
+
+.ojo {
+    width: 30px;
+    height: 30px;
+    background: hsl(0, 0%, 100%);
+    margin: 25px 10px 10px 25px;
+    border-radius: 50%;
+    position: absolute; 
+}
+
+
+.ojo::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: hsl(0, 0%, 100%);
+    margin: 0px 10px 10px 120px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+#boca {
+    width: 38px;
+    height: 38px;
+    background: hsl(308, 100%, 40%);
+    margin: 78px 10px 10px 83px;
+    position: absolute;
+    border-radius: 50% 2% 50%;
+    transform: rotate(45deg);
+}
+
+
+.pupila {
+    width: 20px;
+    height: 20px;
+    background: hsl(0, 0%, 0%);
+    margin: 5px 10px 10px 5px;
+    border-radius: 50%;
+    position: absolute; 
+} 
+
+
+.pupila::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: hsl(0, 0%, 0%);
+    margin: 0px 10px 10px 120px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+#cuello {
+    width: 70px;
+    height: 50px;
+    background: hsl(207, 100%, 38%);
+    margin: -10px 0px 0px 278px;
+}
+
+
+#cuerpo {
+    width: 261px;
+    height: 200px;
+    background: hsl(231, 48%, 48%);
+    margin: 0px 10px 10px 188px;
+    border-radius: 5px;
+}
+
+
+.rombo {
+    width: 88px;
+    height: 88px;
+    background: hsl(0, 100%, 50%);
+    margin: 39px 10px 10px 91px;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+
+.rombo::before {
+    content: "";
+    width: 88px;
+    height: 88px;
+    background: hsl(4, 100%, 50%);
+    margin: -53px 10px 10px 1px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+.rombo::after {
+    content: "";
+    width: 88px;
+    height: 88px;
+    background: hsl(0, 100%, 50%);
+    margin: 1px 10px 10px -54px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.brazo {
+    width: 100px;
+    height: 50px;
+    background: hsl(240, 100%, 50%);
+    margin: 0px 10px 10px 249px;
+    border-radius: 15px;
+}
+
+
+.brazo::before {
+    content: "";
+    width: 100px;
+    height: 50px;
+    background: hsl(240, 100%, 50%);
+    margin: 0px 10px 10px -337px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.mano {
+    width: 68px;
+    height: 49px;
+    background: hsl(197, 100%, 26%);
+    margin: 0px 10px 10px -405px;
+    border-radius: 50%;
+}
+
+
+.mano::before {
+    content: "";
+    width: 68px;
+    height: 49px;
+    background: hsl(197, 100%, 26%);
+    margin: 0px 10px 10px 505px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.pierna {
+    width: 60px;
+    height: 200px;
+    background: hsl(197, 100%, 26%);
+    margin: 148px 10px 10px -202px;
+    border-radius: 5px;
+}
+
+.pierna::before {
+    content: "";
+    width: 60px;
+    height: 200px;
+    background: hsl(197, 100%, 26%);
+    margin: 0px 10px 10px 108px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.pie {
+    width: 68px;
+    height: 49px;
+    background: hsl(240, 100%, 50%);
+    margin: 195px 10px 10px -5px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.pie::before {
+    content: "";
+    width: 68px;
+    height: 49px;
+    background: hsl(240, 100%, 50%);
+    margin: 0px 10px 10px 109px;
+    border-radius: 50%;
+    position: absolute;
+}
